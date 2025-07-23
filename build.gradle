@@ -33,6 +33,7 @@ dependencies {
 	runtimeOnly 'io.micrometer:micrometer-registry-prometheus'
 	implementation 'org.springframework.cloud:spring-cloud-starter-config'
 	implementation("org.springframework.cloud:spring-cloud-starter-circuitbreaker-reactor-resilience4j:3.3.0")
+	implementation 'org.springframework.boot:spring-boot-starter-data-redis-reactive'
 }
 
 dependencyManagement {
